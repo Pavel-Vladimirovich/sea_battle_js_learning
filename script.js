@@ -207,6 +207,46 @@ model.generateShipLocations()
 }
 window.onload = init;
 
+// ------------------------------------------------------------------
+
+// window.onload = init;
+
+// function init(){
+// 	let image = document.querySelectorAll('.img_test');
+//     for(let i = 0; i < image.length; i++){
+//         image[i].onclick = showPicture;
+//     }
+
+//     let map = document.querySelector('.map');
+//     map.onmousemove = showCoords;
+//     // console.log(map)
+
+
+// };
+
+//  function showPicture(eventObj){
+// 	let image = eventObj.target;
+//     let name = image.id;
+//     name = './img/' + name + '_1.jpg';
+//     image.src = name;
+// 	// console.log(name);
+//     setTimeout(showPictureBack, 2000, image);
+// };
+
+
+// function showPictureBack(image){
+//     let name = image.id;
+//     name = './img/' + name + '.jpg';
+//     image.src = name;
+// };
+
+
+//  function showCoords(eventObj){
+//     let map = document.querySelector('.coords');
+//     let mapX = eventObj.clientX;
+//     let mapY = eventObj.clientY;
+//     map.innerHTML = 'Map coordinates:' + '<br>' + ' X: ' + mapX + ' Y: ' + mapX; 
+ };
 
 
 
